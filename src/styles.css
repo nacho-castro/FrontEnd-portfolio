@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style:none
+  }
+
+  body{
+    background-color: #f3d9ff;
+    margin: 0;
+    
+  }
+  
+  .navbar,
+  .navbar a {
+    color: #ecf2ef;
+    background: #6920b0;
+    padding-right: 20px;
+  }
+  
+  .banner {
+    height: 400px;
+    background-image: url(./assets/images/code.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+  }
+  
+  #title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  #perfil-logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-primary{
+    margin-right: 10px;
+  }
+
+  .btn-edit{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 5%;
+  }
+
+  .logo-image{
+    height: auto;
+    width: 100%;
+  }
+
+  footer {
+    color: #ecf2ef;
+    background: #6920b0;
+  }
+  
+  .barra {
+    background-color: #ddd;
+    /* Grey background */
+  }
+  
+  .skills {
+    text-align: right;
+    /* Right-align text */
+    padding: 10px;
+    /* Add padding */
+    color: white;
+    /* White text color */
+    background-color: #6920b0;
+  }
+  
+  .html {
+    width: 90%;
+  }
+  
+  .css {
+    width: 80%;
+  }
+  
+  .js {
+    width: 65%;
+  }
+  
+  .img-fluid:hover {
+    opacity: 20%;
+  }

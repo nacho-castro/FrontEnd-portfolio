@@ -1,0 +1,31 @@
+<div class="section">
+    <div class="row">
+        <h1 id="title">Educación</h1>
+    <button type="button" class="btn btn-edit"><img src="./assets/images/edit.png" alt="btn-edit"></button>
+    </div>
+    
+    <ul class="items-list">
+        <li *ngFor="let educacion of educacionList">
+            <div class="card mb-3 card_focus" style="max-width: 40rem; height: 100%">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <div class="card mb-3 d-flex" style="max-width: 100%; height: 100%">
+                            <div class="card-body">
+                                <img class="logo-image" [src]="educacion.img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{educacion.school}}</h5>
+                            <h6 class="card-subtitle"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></h6>
+                            <p class="card-text">
+                                {{educacion.title}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
