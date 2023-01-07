@@ -7,14 +7,6 @@
   body{
     background-color: #f3d9ff;
     margin: 0;
-    
-  }
-  
-  .navbar,
-  .navbar a {
-    color: #ecf2ef;
-    background: #6920b0;
-    padding-right: 20px;
   }
   
   .banner {
@@ -38,16 +30,6 @@
     text-align: center;
     padding-bottom: 20px;
   }
-  
-  #perfil-logo {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-  }
-
-  .btn-primary{
-    margin-right: 10px;
-  }
 
   .btn-edit{
     position: absolute;
@@ -59,40 +41,4 @@
   .logo-image{
     height: auto;
     width: 100%;
-  }
-
-  footer {
-    color: #ecf2ef;
-    background: #6920b0;
-  }
-  
-  .barra {
-    background-color: #ddd;
-    /* Grey background */
-  }
-  
-  .skills {
-    text-align: right;
-    /* Right-align text */
-    padding: 10px;
-    /* Add padding */
-    color: white;
-    /* White text color */
-    background-color: #6920b0;
-  }
-  
-  .html {
-    width: 90%;
-  }
-  
-  .css {
-    width: 80%;
-  }
-  
-  .js {
-    width: 65%;
-  }
-  
-  .img-fluid:hover {
-    opacity: 20%;
   }

@@ -1,12 +1,20 @@
 <header>
     <nav class="navbar">
+
         <a href="#" class="arg-logo"><img src="./assets/images/argprog.png" width="20%" height="20%" alt="arg-logo"></a>
         <a href="#" class="proyectos">Proyectos</a>
         <a href="#" class="sobre-mi">Sobre mí</a>
         <a href="#" class="contacto">Contacto</a>
-        <button type="button" class="btn btn-primary"><img src="./assets/images/login2.png" width="25px" height="25px"
-                alt="login">Log in</button>
+
+        <app-log-button 
+            color="{{logOut ? 'red' : '#56008c' }}"
+            text="{{logOut ? 'LogOut' : 'LogIn' }}"
+            (btnClick)="logIn()"
+        >
+        </app-log-button>
     </nav>
+
     <div class="banner">
-  </div>
+    </div>
+
 </header>

@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  
+  logOut: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void { }
+
+  logIn() {
+    console.log("Inicio de Sesión")
+    this.logOut = !this.logOut;
+  }
 }

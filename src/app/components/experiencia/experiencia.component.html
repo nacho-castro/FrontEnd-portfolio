@@ -1,28 +1,26 @@
 <div class="section">
     <div class="row">
         <h1 id="title">Experiencia</h1>
-    <button type="button" class="btn btn-edit"><img src="./assets/images/edit.png" alt="btn-edit"></button>
+        <button type="button" class="btn btn-edit"><img src="./assets/images/edit.png" alt="btn-edit"></button>
     </div>
     
     <ul class="items-list">
-        <li>
+        <li *ngFor="let experiencia of experienciaList">
             <div class="card mb-3 card_focus" style="max-width: 40rem; height: 100%">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <div class="card text-white bg-primary mb-3 d-flex" style="max-width: 100%; height: 100%">
+                        <div class="card mb-3 d-flex" style="max-width: 100%; height: 100%">
                             <div class="card-body">
-                                <i class="fas fa-file-code"></i>
+                                <img class="logo-image" [src]="experiencia.img">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Cargo</h5>
-                            <h6 class="card-subtitle">Periodo</h6>
+                            <h5 class="card-title">{{experiencia.job}}</h5>
+                            <h6 class="card-subtitle"><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></h6>
                             <p class="card-text">
-                                This is a wider card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
+                                {{experiencia.title}}
                             </p>
                         </div>
                     </div>

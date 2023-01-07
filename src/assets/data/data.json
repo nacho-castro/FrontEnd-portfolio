@@ -5,19 +5,36 @@
     "position": "Full Stack Developer Jr",
     "ubication": "Buenos Aires, Argentina",
     "about": "Hola! Soy Nacho, futuro estudiante de Ingeniería en Sistemas en la Universidad Tecnológica Nacional. Soy una persona organizada y responsable, con buenas relaciones interpersonales. Amante de la tecnología y la programación. Estoy comenzando en el sector IT y busco un puesto desafiante donde pueda continuar aprendiendo. En este Portfolio podrás ver mis proyectos y certificados, además de tener la posibilidad de contactarte conmigo.",
-    "education": [{
-        "school": "UTN",
-        "title": "Ingenieria en Sistemas de Información",
-        "img": "./assets/images/utn.jpg",
-        "start": "2023",
-        "end": "Actualidad"
-    },
-    {
-        "school": "Nacional de San Isidro",
-        "title": "Bachiller orientado en Cs. Sociales",
-        "img": "./assets/images/colegionacional.jpg",
-        "start": "2017",
-        "end": "2022"
-    }
-]
+    "experiencie": [
+        {
+            "job": "COMPANY",
+            "title": "Puesto",
+            "img": "./assets/images/pcicon.png",
+            "start": "2023",
+            "end": "Actualidad"
+        }
+    ],
+    "education": [
+        {
+            "school": "UTN",
+            "title": "Ingenieria en Sistemas de Información",
+            "img": "./assets/images/utn.jpg",
+            "start": "2023",
+            "end": "Actualidad"
+        },
+        {
+            "school": "Nacional de San Isidro",
+            "title": "Bachiller orientado en Cs. Sociales",
+            "img": "./assets/images/colegionacional.jpg",
+            "start": "2017",
+            "end": "2022"
+        }
+    ],
+    "skills": [
+        {
+            "html": "50%",
+            "css": "50%",
+            "js": "50%"
+        }
+    ]
 }

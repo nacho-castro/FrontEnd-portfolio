@@ -1,0 +1,28 @@
+.barra {
+    background-color: #ddd;
+    /* Grey background */
+  }
+  
+  .skills {
+    text-align: right;
+    /* Right-align text */
+    padding: 10px;
+    /* Add padding */
+    color: white;
+    /* White text color */
+    background-color: #6920b0;
+  }
+  
+  .html {
+    width: 90%;
+  }
+  
+  .css {
+    width: 80%;
+  }
+  
+  .js {
+    width: 65%;
+  }
+  
+  
