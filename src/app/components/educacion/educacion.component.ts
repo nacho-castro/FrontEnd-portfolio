@@ -15,4 +15,8 @@ export class EducacionComponent implements OnInit{
       this.educacionList=data.education;
     })
   }
+
+  edit(){
+    console.log("Edit Educacion!");
+  }
 }

@@ -5,7 +5,7 @@
   }
 
   body{
-    background-color: #f3d9ff;
+    background-color: #eed8f8;
     margin: 0;
   }
   
@@ -29,6 +29,8 @@
   #title {
     text-align: center;
     padding-bottom: 20px;
+    font-weight: 700;
+  text-transform: uppercase;
   }
 
   .btn-edit{

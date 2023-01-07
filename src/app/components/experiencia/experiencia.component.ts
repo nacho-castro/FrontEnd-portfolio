@@ -16,4 +16,8 @@ export class ExperienciaComponent implements OnInit {
       this.experienciaList=data.experiencie;
     })
  }
+
+ edit(){
+  console.log("Edit Experiencia!");
+}
 }

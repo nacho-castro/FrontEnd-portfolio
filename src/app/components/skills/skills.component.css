@@ -1,28 +1,48 @@
-.barra {
-    background-color: #ddd;
-    /* Grey background */
-  }
-  
-  .skills {
-    text-align: right;
-    /* Right-align text */
-    padding: 10px;
-    /* Add padding */
-    color: white;
-    /* White text color */
-    background-color: #6920b0;
-  }
-  
-  .html {
-    width: 90%;
-  }
-  
-  .css {
-    width: 80%;
-  }
-  
-  .js {
-    width: 65%;
-  }
-  
-  
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background:  #6920b0;
+  border-radius: 3px;
+  position:relative;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  top: -15px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}

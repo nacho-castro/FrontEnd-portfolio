@@ -1,7 +1,9 @@
 <div class="section">
     <div class="row">
         <h1 id="title">Proyectos</h1>
-        <button type="button" class="btn btn-edit"><img src="./assets/images/edit.png" alt="btn-edit"></button>
+        <app-edit-button
+            (btnClick)="edit()"
+        ></app-edit-button>
     </div>
 
     <div class="container">

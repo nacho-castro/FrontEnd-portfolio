@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PortfolioService } from './services/portfolio.service';
 import { LogButtonComponent } from './components/log-button/log-button.component';
+import { EditButtonComponent } from './components/edit-button/edit-button.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LogButtonComponent } from './components/log-button/log-button.component
     SkillsComponent,
     ProyectosComponent,
     FooterComponent,
-    LogButtonComponent
+    LogButtonComponent,
+    EditButtonComponent
   ],
   imports: [
     BrowserModule,

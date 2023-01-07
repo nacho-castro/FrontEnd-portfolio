@@ -16,4 +16,8 @@ export class PerfilComponent implements OnInit {
       this.miPortfolio=data;
     });
   }
+
+  edit(){
+    console.log("Edit Perfil!");
+  }
 }
