@@ -30,14 +30,7 @@
     text-align: center;
     padding-bottom: 20px;
     font-weight: 700;
-  text-transform: uppercase;
-  }
-
-  .btn-edit{
-    position: absolute;
-    right: 0;
-    height: auto;
-    width: 5%;
+    text-transform: uppercase;
   }
 
   .logo-image{
