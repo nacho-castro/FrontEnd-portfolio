@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # Portfolio Web FrontEnd 💻
 
-Bienvenidos a mi proyecto de portfolio web! 
+Bienvenidos a mi proyecto de Portfolio Web! 
 
-Estoy diseñando el FrontEnd utilizando HTML y CSS, además de la bilbioteca Bootstrap.
+Estoy diseñando el FrontEnd con Angular, utilizando HTML, CSS y TypeScript, además de la librería Bootstrap.
 
 ⚠️ Aún está en proceso ⚠️
 >>>>>>> 59fb76260337d14d9d5e5603eabf803194726273
